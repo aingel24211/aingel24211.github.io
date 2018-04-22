@@ -1,0 +1,111 @@
+/* You must link the pages together for the css syling to take place */
+
+body{
+  background-color: white;
+
+}
+p {
+  color: red;
+  background-color: rgb(255,255,255);
+  font-size: 23px;
+}
+
+h6 {
+  font-family: gill sans extrabold;
+  color: blue;
+  height: 500;
+  width: 100;
+}
+
+h1{
+  font-family: "Verdana", cursive;
+  font-size: 200%;
+}
+
+/* ID's are unique (each element can only have one ID. Each page can have only one
+element with one ID) */
+
+#work{
+  color: purple;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+#school{
+  color: blue;
+}
+
+#exercise{
+  color: red;
+  font-size: 150%;
+}
+
+.progress{
+  list-style: none;
+}
+
+.progress-link{
+  font-size: large;
+}
+
+p{
+  border: 5px solid purple;
+}
+
+iframe{
+  border: 7px groove black;
+}
+
+h1{
+  text-align: center;
+
+}
+
+h1 span{
+  border: 5px solid red;
+}
+
+table{
+  border: dashed blue;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+ul{
+  text-align: center;
+}
+
+#fate_sn{
+  width: 1000px;
+  height:auto;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+#splash{
+  background-attachment: fixed;
+  background-image: url("anime_lights.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: convert;
+  height: 500px;
+}
+
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: green;
+}
+
+a:hover{
+  color: red;
+}
+
+a:active{
+  color: purple;
+}
